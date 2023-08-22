@@ -1,30 +1,3 @@
-// interface Component{
-//     getDatail():string
-// }
-
-// class ProductComponent implements Component{
-//     protected name: string
-
-//     constructor(name: string){
-//         this.name = name
-//     }
-
-//     getDatail(): string {
-//         return (` ${this.name}`)
-//     }
-// }
-
-// abstract class ProductDecorator implements Component{
-//     protected component: Component
-//     constructor (component: Component) {
-//         this.component = component
-//     }
-    
-//     getDatail(): string {
-//         return this.component.getDatail()
-//     }
-// } 
-
 // component
 interface Component{
     getDetail() : string;
